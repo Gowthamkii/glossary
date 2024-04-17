@@ -1,0 +1,36 @@
+/* Navigation styling */
+nav {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Padding */
+  }
+  
+  nav div {
+    font-weight: bold; /* Bold font */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 10px; /* Spacing between list items */
+  }
+  
+  nav ul li a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+  }
+  nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #ff0; /* Change text color on hover */
+  
+  /* Main content styling */
+  main {
+    padding: 20px; /* Padding */
+    font-size: 16px; /* Font size */
+    line-height: 1.6; /* Line height */
+  }
+  

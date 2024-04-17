@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: red;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+    color:red;
+}
+footer {
+    background-color: #333; /* Background color of the footer */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around the footer */
+}
+
+.contact {
+    margin-top: 20px; /* Add some space between the footer content and the contact section */
+    text-align: left;
+}
+
+.contact h3 {
+    margin-bottom: 10px; /* Add some space below the heading */
+}
+
+.contact ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+.contact ul li {
+    margin-bottom: 5px; /* Add some space between each contact detail */
+}
+
+.contact ul li a {
+    color: #fff; /* Text color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.contact ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: aqua;
+}
+section{
+    height: 400px;
+    width: 100%;
+}
+
